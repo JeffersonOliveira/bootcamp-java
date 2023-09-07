@@ -1,5 +1,12 @@
 package com.xieba.bootcamp;
 
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Getter
+@Setter
+@ToString
 public class Endereco {
     private String logradouro;
     private String complemento;
@@ -8,6 +15,7 @@ public class Endereco {
     private String cidade;
     private String cep;
 
+    /*
     public String getLogradouro() {
         return logradouro;
     }
@@ -55,5 +63,5 @@ public class Endereco {
                 ", cidade='" + cidade + '\'' +
                 ", cep='" + cep + '\'' +
                 '}';
-    }
+    }*/
 }
